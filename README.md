@@ -1,4 +1,28 @@
-# cpnt200-a3
+# CPNT 200-a3 - JAMstack Deployment
+
+## Author: 
+Mysia Santana
+
+## Links:
+* GH repo: https://github.com/Mysia14/cpnt200-
+* Netlify page:[Netlify App](/) 
+
+ #### Code Review:
+ - I had some diffiulties wiht the Nuxtjs setup as well the Vuetify, which made me delete my old repo e rebuild it.
+ - I aldo had many vulnerabilities while downloading the dependiecies and even using "npm audit fix" I wasnt able to fixe them all.
+ 
+
+
+## Attributions:
+
+- [Fesal Baday](https://github.com/FesalBadday) 
+- Ashlyn Knox for code structure.
+- Fall Image[Pexel -  Craig Adderley](https://www.pexels.com/photo/concrete-road-between-trees-1563356/).
+- Winter Image[Pexel -Pixabay](https://www.pexels.com/photo/snowy-forest-235621/)
+- Spring Image[Pexel - Nathan Cowley from Pexels](https://www.pexels.com/photo/pink-flowers-photography-1128797/)
+- Summer Image[Pexel - MarcTutorials from Pexel](https://www.pexels.com/photo/palm-trees-1152359/)
+- Vuetify (https://vuetifyjs.com/en/getting-started/installation/)
+
 
 ## Build Setup
 
@@ -67,4 +91,3 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
-# cpnt200-a3
