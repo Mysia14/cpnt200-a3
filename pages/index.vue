@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <h2>Articles on Dogs</h2>
+    <h2>A Beautiful Gallery</h2>
     <v-card>
       <ul>
         <li v-for="post in posts" :key="post.slug">
