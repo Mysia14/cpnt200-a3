@@ -24,7 +24,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const posts = await $content("gallery").fetch();
+    const posts = await $content("blog").fetch();
     const recipes = await $content("recipe").fetch();
     return {
       posts,
