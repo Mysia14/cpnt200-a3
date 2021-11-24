@@ -22,8 +22,8 @@
 </template>
 
 <script>
-export default {
-  async asyncData({ $content }) {
+export default { 
+  async asyncData ({ $content, params }) {
     const posts = await $content("blog").fetch();
     const recipes = await $content("recipe").fetch();
     return {

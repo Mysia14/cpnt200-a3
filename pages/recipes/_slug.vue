@@ -1,29 +1,23 @@
 <template>
   <v-main>
-    <v-container>
-      <h2>#1 {{ post.title }}</h2>
+    <article>
+      <h2>{{ post.recipeName }}</h2>
+      <p>{{ post.chef }}</p>
+      <nuxt-img :src="post.image" sizes="sm:100vw md:50vw lg:600px" />
       <nuxt-content :document="post" />
-    </v-container>
-    <v-container>
-      <h2>#2 {{ post.title }}</h2>
-      <p>{{ post.description }}</p>
-      <nuxt-content :document="post" />
-
-      <p>Published date: {{ post.date }}</p>
-    </v-container>
+    </article>
   </v-main>
 </template>
 <script>
 export default {
   async asyncData({ $content, params, error }) {
     try {
-      const post = await $content(`blog/${params.slug}`).fetch()
+      const post = await $content(`recipe/${params.slug}`).fetch();
       return {
         post,
-      }
-    } catch (e) {
-      error('No article found')
+      };
+    } catch (error) {
+      error(" Soryy! No article found");
     }
   },
-}
-</script>
+};
