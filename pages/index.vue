@@ -24,8 +24,8 @@
 <script>
 export default { 
   async asyncData ({ $content, params }) {
-    const posts = await this.$content("blog").fetch();
-    const recipes = await this.$content("recipe").fetch();
+    //const posts = await $content("blog").fetch();
+    const recipes = await $content("recipe").fetch();
     return {
       posts,
       recipes,
