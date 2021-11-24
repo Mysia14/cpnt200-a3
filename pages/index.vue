@@ -24,7 +24,7 @@
 <script>
 export default { 
   async asyncData ({ $content, params }) {
-    const posts = await $content("blog").fetch();
+    const posts = await $content("/cpnt200/cpnt200-a3/content/blog").fetch();
     const recipes = await $content("recipe").fetch();
     return {
       posts,
