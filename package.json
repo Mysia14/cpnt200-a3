@@ -20,5 +20,10 @@
     "@nuxtjs/tailwindcss": "^4.2.0",
     "@nuxtjs/vuetify": "^1.12.1",
     "postcss": "^8.3.5"
+  },
+    "alias": {
+    "vue" : "./node_modules/vue/dist/vue.common.js"
   }
-}
+
+  }
+
