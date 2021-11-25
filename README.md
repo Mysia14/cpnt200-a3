@@ -22,10 +22,10 @@
 #### Code structure and help:
 :star2:[Ashlyn Knox](https://gist.github.com/lilyx13) 
 ##### Images:
-:fallen_leaf: Fall Image [Pexel -  Craig Adderley](https://www.pexels.com/photo/concrete-road-between-trees-1563356/).
-:snowman: Winter Image [Pexel -Pixabay](https://www.pexels.com/photo/snowy-forest-235621/)
-:snowman: Spring Image [Pexel - Nathan Cowley from Pexels](https://www.pexels.com/photo/pink-flowers-photography-1128797/)
-:sunny: Summer Image [Pexel - MarcTutorials from Pexel](https://www.pexels.com/photo/palm-trees-1152359/)
+* :fallen_leaf: Fall Image [Pexel -  Craig Adderley](https://www.pexels.com/photo/concrete-road-between-trees-1563356/).
+* :snowman: Winter Image [Pexel -Pixabay](https://www.pexels.com/photo/snowy-forest-235621/)
+* :tulip: Spring Image [Pexel - Nathan Cowley from Pexels](https://www.pexels.com/photo/pink-flowers-photography-1128797/)
+* :sunny: Summer Image [Pexel - MarcTutorials from Pexel](https://www.pexels.com/photo/palm-trees-1152359/)
 
 
 ## Build Setup
