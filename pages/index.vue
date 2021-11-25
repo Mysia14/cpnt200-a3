@@ -23,13 +23,21 @@
 
 <script>
 export default { 
+  //// fetch the data from the blog in the content folder
   async asyncData ({ $content, params }) {
-    //const posts = await $content("blog").fetch();
-    const recipes = await $content("recipe").fetch();
+    const posts = await $content('blog').fetch();
+    const recipes = await $content('recipe').fetch();
     return {
       posts,
       recipes,
-    };
+    }
   },
-};
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+      ],
+    }
+  },
+}
 </script>
