@@ -12,7 +12,7 @@
     <v-card>
       <ul>
         <li v-for="recipe in recipes" :key="recipe.slug">
-          <nuxt-link :to="`recipes/${recipe.slug}`">{{
+          <nuxt-link :to="`recipe/${recipe.slug}`">{{
             recipe.recipeName
           }}</nuxt-link>
         </li>
