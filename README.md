@@ -1,29 +1,32 @@
 # CPNT 200-a3 - JAMstack Deployment
 
 ## Author: 
-Mysia Santana
+:sparkles: Mysia Santana :sparkles:
 
 ## Links:
 * [GH repo](https://github.com/Mysia14/cpnt200-a3)
-* [Netlify App](https://hardcore-kare-6bcfa7.netlify.app/) :thumbdown:
+* [Netlify App](https://hardcore-kare-6bcfa7.netlify.app/) 
 
  #### Code Review:
  - I had some diffiulties wiht the Nuxtjs setup as well the Vuetify, which made me delete my old repo e rebuild it. I got a little confused about the Vuetify and Tailwind. Both were added but I couldnt work properly with them.
  - I also had many vulnerabilities while downloading the dependiecies and even using "npm audit fix" I wasnt able to fixe them all.
- - The major problem was a error during deployment : `Error: /gallery not found at QueryBuilder.fetch (/opt/build at asyncData (pages/index.vue:26:0) at promisify (node_modules/.cache/nuxt/utils.js:304:0) at server.js:6976:23 at Array.map (<anonymous>)at module.exports.__webpack_exports__.default (node_modules/.cache/nuxt/server.js:231:0)`. Even have searched hot to fix through several websites refences, unfortunatelyI was not able to fix it. The two contents folders were not found. I also tried to add a webpack in the package.json file, as one of the websites have suggested, but no succes.
-* Some wesites that I have searched through were: (https://content.nuxtjs.org/fetching/), (https://answers.netlify.com/t/page-not-found-after-deployment/2362/27), (https://github.com/typeorm/typeorm/issues/747), (https://gist.github.com/lilyx13),(http://www.ostack.cn/?qa=302034/),(https://laracasts.com/discuss/channels/vue/missing-stack-frames-in-vue-nuxt),(https://github.com/nuxt/nuxt.js/issues/6640), (https://www.dynamichands.nl/blog/query-builder-error-attribute-not-found-in-metadatacache/) and more.
+ - The biggest problem  was a error during deployment : 
+ `Error: /gallery not found at QueryBuilder.fetch (/opt/build at asyncData (pages/index.vue:26:0) at promisify (node_modules/.cache/nuxt/utils.js:304:0) at server.js:6976:23 at Array.map (<anonymous>)at module.exports.__webpack_exports__.default (node_modules/.cache/nuxt/server.js:231:0)`. Even have searched hot to fix through several websites refences, unfortunatelyI was not able to fix it. The two contents folders were not found. I also tried to add a webpack in the package.json file, as one of the websites have suggested, but no succes.
+* Some wesites that I have searched through were: (https://content.nuxtjs.org/fetching/)\\(https://answers.netlify.com/t/page-not-found-after-deployment/2362/27)\\(https://github.com/typeorm/typeorm/issues/747)\\ (https://gist.github.com/lilyx13)\\(http://www.ostack.cn/?qa=302034/)\\(https://laracasts.com/discuss/channels/vue/missing-stack-frames-in-vue-nuxt)\\(https://github.com/nuxt/nuxt.js/issues/6640)\\(https://www.dynamichands.nl/blog/query-builder-error-attribute-not-found-in-metadatacache/)\\(https://vuetifyjs.com/en/getting-started/installation/)) and more.
+
 - So after so many tries I wonder if I missed to run or install something so the app could run properly.
+
 - Even the deployment is not working as expected the page can be listened on http://localhost:3000/.
  
 ## Attributions:
 #### Code structure and help:
-- [Ashlyn Knox](https://gist.github.com/lilyx13) 
+:star2:[Ashlyn Knox](https://gist.github.com/lilyx13) 
 ##### Images:
-- Fall Image[Pexel -  Craig Adderley](https://www.pexels.com/photo/concrete-road-between-trees-1563356/).
-- Winter Image[Pexel -Pixabay](https://www.pexels.com/photo/snowy-forest-235621/)
-- Spring Image[Pexel - Nathan Cowley from Pexels](https://www.pexels.com/photo/pink-flowers-photography-1128797/)
-- Summer Image[Pexel - MarcTutorials from Pexel](https://www.pexels.com/photo/palm-trees-1152359/)
-- Vuetify (https://vuetifyjs.com/en/getting-started/installation/)
+:fallen_leaf: Fall Image [Pexel -  Craig Adderley](https://www.pexels.com/photo/concrete-road-between-trees-1563356/).
+:snowman: Winter Image [Pexel -Pixabay](https://www.pexels.com/photo/snowy-forest-235621/)
+:snowman: Spring Image [Pexel - Nathan Cowley from Pexels](https://www.pexels.com/photo/pink-flowers-photography-1128797/)
+:sunny: Summer Image [Pexel - MarcTutorials from Pexel](https://www.pexels.com/photo/palm-trees-1152359/)
+
 
 ## Build Setup
 
